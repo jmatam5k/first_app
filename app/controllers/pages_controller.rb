@@ -4,4 +4,7 @@ class PagesController < ApplicationController
 
   def two
   end
+
+  def three  #Agregar el método three al controlador Pages 
+  end
 end
