@@ -1,3 +1,32 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(229,252,166,1) 0%, rgba(246,255,159,1) 19%, rgba(0,212,255,1) 56%, rgba(215,255,0,1) 96%);
+}
+.bg-celeste{
+    background-color: #002846;
+}
+.navbar-color{
+    text-decoration: none;
+    color: azure!important;
+}
+.nombre{
+    margin-top: 50px;
+}
+.captura{
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+}
+.home_capture{
+    margin-left: 10%;
+    max-width: 80%;
+}
+.text-text{
+    margin-left: 300px;
+    margin-top: 40px;
+    max-width: 50%;
+    color: #002846;
+}

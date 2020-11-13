@@ -14,18 +14,22 @@
   </head>
  
   <body>
-    <nav class="navbar navbar-inverse navbar-expand-lg navbar-light bg-light">
-  <%= link_to 'One pages', root_path, class: "navbar-brand" %>
+  <%# Agregar un navbar al layout (2 puntos)
+   El navbar debe contener la clase navbar-inverse y su estructura 
+   sólo debe contener 3 links donde cada uno llevará a la página 
+   correspondiente  %>
+    <nav class="navbar navbar-inverse navbar-expand-lg navbar-light bg-celeste">
+  <%= link_to 'One pages', root_path, class: ["navbar-brand", "navbar-color"] %>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <%= link_to 'Two Pages', pages_two_path, class: "nav-link" %>
+        <%= link_to 'Two Pages', pages_two_path, class: ["nav-link","navbar-color" ]%>
       </li>
       <li class="nav-item">
-        <%= link_to 'Three Pages', pages_three_path, class: "nav-link" %>
+        <%= link_to 'Three Pages', pages_three_path, class: ["nav-link","navbar-color"] %>
       </li>
     </ul>
   </div>

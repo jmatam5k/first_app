@@ -1,2 +1,9 @@
-<h2>Captura Rake Routes</h2>
-<%= image_tag 'rake_routes.png' %> <%# Insertar la imagen de la captura de pantalla obtenida a la página two %>
+<%# <h2>Captura Rake Routes</h2> %>
+
+<%= content_tag( :h2, 'Captura Rake Routes', class: ["text-center", "nombre"]) %>
+<%# <%= image_tag 'rake_routes.png', class: "captura" %> <%# Insertar la imagen de la captura de pantalla obtenida a la página two %>
+
+
+<%= tag.div class: 'home_capture' do %>
+   <%= image_tag 'rake_routes.png', class: "captura" %>
+<% end %>
